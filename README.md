@@ -12,7 +12,7 @@ A **React/Next.js** subscription form where users enter their phone number and r
 
 
 ## 🌐 Live Preview
-Check out the live preview here: **[Live Demo](https://rizz-pharma-nn.vercel.app/)**
+Check out the live preview here: **[Live Demo](https://qr-code-generation-wine.vercel.app/)**
 
 ## 📦 Installation & Setup
 1. Clone the repository:
@@ -27,11 +27,7 @@ Check out the live preview here: **[Live Demo](https://rizz-pharma-nn.vercel.app
    ```sh
    npm install
    ```
-4. There maybe some issues with peer dependency, for that case:
-   ```sh
-   npm install --force
-   ```
-5. Start the development server:
+4. Start the development server:
    ```sh
    npm run dev
    ```
