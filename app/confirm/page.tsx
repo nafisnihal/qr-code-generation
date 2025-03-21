@@ -11,7 +11,9 @@ export default function ConfirmationPage() {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <div className="p-4 border rounded-md flex flex-col items-center justify-center gap-2">
-        <h1 className="text-violet-800 text-2xl font-bold">Subscription Confirmed!</h1>
+        <h1 className="text-violet-800 text-2xl font-bold">
+          Subscription Confirmed!
+        </h1>
         {phoneNumber && <p>Phone Number: {phoneNumber}</p>}
         <p className="text-green-700">
           Thank you for confirming your subscription.

@@ -27,7 +27,6 @@ const FormSchema = z.object({
 
 export default function Subscribe() {
   const [confirmationLink, setConfirmationLink] = useState<string | null>(null);
-  console.log("🚀 ~ Subscribe ~ confirmationLink:", confirmationLink);
   const [loading, setLoading] = useState(false);
 
   const form = useForm<z.infer<typeof FormSchema>>({
@@ -36,6 +35,7 @@ export default function Subscribe() {
       phone: "",
     },
   });
+  console.log("isValid? ", form.formState.isValid);
 
   function onSubmit(data: z.infer<typeof FormSchema>) {
     if (!form.formState.isValid) return;
